@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "first-post.md",
+    "created_at": "1970-01-01",
+    "title": "Welcome to My Blog",
+    "summary": "An introduction to my journey as a DevOps engineer and the topics I'll cover in this blog.",
+    "tags": [
+      "DevOps",
+      "Introduction"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Engineer Profile</title>
+  <meta name="description" content="Official profile and blog of a dedicated DevOps engineer. Explore projects, articles, and insights into the world of infrastructure automation and cloud technologies.">
+  <meta property="og:title" content="DevOps Engineer Profile & Blog">
+
+  <!-- Google Fonts for terminal-like feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Cutive+Mono&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="bg-[var(--color-bg)] text-[var(--color-text-primary)] font-terminal">
+
+<!-- Header -->
+<header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-[var(--color-bg)] border-b border-[var(--color-border)] py-4 px-8 flex justify-between items-center">
+  <h1 class="text-xl font-display text-white"><a href="index.html">leinad-sch</a></h1>
+
+  <!-- Desktop Navigation -->
+  <nav id="desktop-nav" class="hidden md:flex space-x-6" aria-label="Main navigation">
+    <a href="index.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Home</a>
+    <a href="blog.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Blog</a>
+    <a href="projects.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Projects</a>
+    <a href="cv.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">CV</a>
+  </nav>
+
+  <!-- Mobile Menu Button -->
+  <button id="mobile-menu-button" aria-label="Open menu" class="md:hidden hamburger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</header>
+
+<!-- Main Content Area -->
+<main id="page-content" class="container py-16 md:py-24">
+  <!-- Hero Section -->
+  <section class="text-center mb-12">
+    <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl leading-tight">Welcome to My DevOps Journey</h2>
+    <p class="mt-6 max-w-xl mx-auto text-lg opacity-80">
+      I'm a passionate DevOps engineer dedicated to building robust, scalable infrastructure and automating processes. This site serves as my personal hub for sharing insights, projects, and thoughts on the ever-evolving world of cloud computing and continuous integration/continuous deployment.
+    </p>
+  </section>
+
+  <!-- Call to Action -->
+  <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+    <a href="blog.html" class="bg-[var(--color-accent)] text-white font-display px-6 py-3 rounded-md hover:bg-blue-600 transition-colors duration-200 transform hover:scale-105">Read My Blog</a>
+    <a href="projects.html" class="border border-[var(--color-border)] text-[var(--color-text-primary)] font-display px-6 py-3 rounded-md hover:bg-gray-700 transition-colors duration-200 transform hover:scale-105">View My Projects</a>
+  </div>
+
+  <!-- Featured Content -->
+  <section class="mt-24">
+    <h3 class="font-display text-2xl mb-8 text-center">Recent Posts</h3>
+    <div id="post-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="py-8 text-center">
+  <p>&copy; 2024 leinad-sch - All rights reserved.</p>
+</footer>
+
+<!-- Mobile Navigation Menu (hidden by default) -->
+<nav id="mobile-nav-menu" class="fixed top-[60px] left-0 right-0 bg-[var(--color-bg)] border-t border-[var(--color-border)] py-6 px-4 md:hidden hidden" aria-label="Mobile navigation">
+  <ul class="flex flex-col items-center space-y-4 text-lg font-display">
+    <li><a href="index.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Home</a></li>
+    <li><a href="blog.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Blog</a></li>
+    <li><a href="projects.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Projects</a>
+    </li>
+    <li><a href="cv.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">CV</a></li>
+  </ul>
+</nav>
+
+<!-- JavaScript for Mobile Menu Toggle -->
+<script src="assets/mobile-menu.js"></script>
+
+<!-- JavaScript for Blog Posts -->
+<script src="assets/blog.js"></script>
+</body>
+</html>

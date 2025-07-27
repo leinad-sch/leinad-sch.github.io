@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Engineer CV</title>
+  <meta name="description" content="Professional CV of a DevOps engineer with expertise in cloud computing and automation technologies.">
+  <meta property="og:title" content="DevOps Engineer CV">
+
+  <!-- Google Fonts for terminal-like feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Cutive+Mono&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="bg-[var(--color-bg)] text-[var(--color-text-primary)] font-terminal">
+
+<!-- Header -->
+<header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-[var(--color-bg)] border-b border-[var(--color-border)] py-4 px-8 flex justify-between items-center">
+  <h1 class="text-xl font-display text-white"><a href="index.html">leinad-sch</a></h1>
+
+  <!-- Desktop Navigation -->
+  <nav id="desktop-nav" class="hidden md:flex space-x-6" aria-label="Main navigation">
+    <a href="index.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Home</a>
+    <a href="blog.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Blog</a>
+    <a href="projects.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Projects</a>
+    <a href="cv.html" class="font-bold text-[var(--color-accent)]">CV</a>
+  </nav>
+
+  <!-- Mobile Menu Button -->
+  <button id="mobile-menu-button" aria-label="Open menu" class="md:hidden hamburger-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</header>
+
+<!-- Main Content -->
+<main id="page-content" class="container py-16 md:py-24 pt-20">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Left Column - Summary and Skills -->
+    <div class="lg:col-span-1 space-y-8">
+      <section>
+        <h2 class="font-display text-2xl mb-6">Professional Summary</h2>
+        <p class="prose max-w-none">
+          Experienced DevOps engineer with over 7 years of expertise in building scalable cloud
+          infrastructures, automating deployment processes, and optimizing CI/CD pipelines. Proficient in
+          Kubernetes, Terraform, AWS, and GitOps practices. Passionate about creating efficient, reliable, and
+          secure systems that deliver business value.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="font-display text-2xl mb-6">Key Skills</h2>
+        <ul class="space-y-4">
+          <li>Cloud Infrastructure</li>
+          <li>Containerization (Docker, Kubernetes)</li>
+          <li>Infrastructure as Code (Terraform, Terragrunt)</li>
+          <li>CI/CD Pipelines (Jenkins, GitLab CI, GitHub Actions)</li>
+          <li>Monitoring & Observability (VictoriaMetrics, Grafana, ELK)</li>
+          <li>Configuration Management</li>
+          <li>Networking & Security</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Right Column - Experience, Education, Certifications -->
+    <div class="lg:col-span-2 space-y-8">
+      <section>
+        <h2 class="font-display text-2xl mb-6">Professional Experience</h2>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">One-Person Ops Team</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>JAN 2023 - Present</span>
+            <span>FINTECH</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">AWS</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Linux</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Terraform</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">NodeJS</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">PostgreSQL</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MongoDB</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Github Actions</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Kubernetes</span>
+          </div>
+          <br>
+          <ul class="space-y-3">
+            <li>DevOps/SRE/Security</li>
+          </ul>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Senior EverythingOps Engineer</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>FEB 2020 - DEC 2022</span>
+            <span>FINTECH</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">AWS</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Linux</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Terraform</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">NodeJS</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">PostgreSQL</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MongoDB</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Github Enterprise</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Atlassian</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Google Workspace</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Datadog</span>
+          </div>
+          <br>
+          <ul class="space-y-3">
+            <li>DevOps/SRE/Security/IAM</li>
+            <li>Mentoring.</li>
+          </ul>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">One-Person Ops Team</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>MAY 2017 - AUG 2019</span>
+            <span>FIELD SERVICES STARTUP</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">AWS</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Linux</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Terraform</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">NodeJS</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MySQL/MariaDB</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MongoDB</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">RabbitMQ</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">ELK Stack</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">CI/CD</span>
+          </div>
+          <br>
+          <ul class="space-y-3">
+            <li>Migration from RackSpace to AWS and introduction of IaC and DevOps culture</li>
+            <li>Supporting developers by improving DevX</li>
+            <li>Enabling faster prototyping using ephemeral cloud test environments</li>
+            <li>Establishing monitoring and tracing practices to increase observability</li>
+          </ul>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Wannabe DevOps Engineer</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>MAY 2016 - APR 2017</span>
+            <span>TELCO STARTUP</span>
+          </div>
+          <br>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MS AD+Exchange+Skype for Business</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Linux</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Hetzner</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Proxmox</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Corosync+Pacemaker</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">VoIP/Asterisk</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MySQL master-slave replication</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">CI/CD (Jenkins)</span>
+          </div>
+          <ul class="space-y-3">
+            <li>Maintenance and development of a highly available VoIP infrastructure, a web hosting system, and the infrastructure of our instant messaging app product.</li>
+            <li>Local IT/sysadmin tasks</li>
+            <li>Troubleshooting of customer network issues</li>
+          </ul>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Linux/UNIX Operator L2 (7x24 in 8-hour shifts)</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>APR 2015 - MAY 2016</span>
+            <span>IBM Aviation Industry Services</span>
+          </div>
+          <br>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Linux/Solaris/HP-UX/AIX</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">VMWare</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Hyper-V</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Backup Management (Symantec NetBackup)</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Change Management</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Incident Management</span>
+          </div>
+          <br>
+          <ul class="space-y-3">
+            <li>Monitoring of thousands of physical and virtual servers, incident handling, server patching, monitoring backups, and handling restore requests, DNS and DHCP server configuration, ACL configuration.</li>
+          </ul>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Tech Support Analyst L1 (night-and-weekend team; 12-hour
+            shifts)</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>AUG 2012 - NOV 2014</span>
+            <span>Hewlett Packard</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Active Directory</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">MS Outlook</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">SAP</span>
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">ITIL</span>
+          </div>
+          <br>
+          <ul class="space-y-3">
+            <li>L1 Tech support for a wide range of clients (telco, automotive, aviation)</li>
+          </ul>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">"Sysadmin Intern"</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>JAN 2010 - AUG 2012</span>
+            <span>HR AGENCY</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-[var(--color-bg)] text-[var(--color-text-primary)] rounded-full text-sm">Frontend</span>
+          </div>
+          <br>
+          <ul class="space-y-3">
+            <li>Clueless hacking, fixing printer issues, Windows support, web development (Joomla).</li>
+          </ul>
+        </article>
+      </section>
+
+      <section>
+        <h2 class="font-display text-2xl mb-6">Education</h2>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Computer Science Engineer BSC Pre-Degree Certificate</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>September 2017 - May 2019</span>
+            <span>Gábor Dénes Főiskola, Budapest, HUNGARY</span>
+          </div>
+          <p class="mb-3">Unfinished.</p>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Certified Sound Engineer</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>2011 - 2013</span>
+            <span>Athéné Szakközépiskola, Budapest, HUNGARY</span>
+          </div>
+          <p class="mb-3">The best in class.</p>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Computer Science Engineer BSC</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>2008 - 2010</span>
+            <span>Technische Universität Berlin, Berlin, GERMANY</span>
+          </div>
+          <p class="mb-3">Unfinished.</p>
+        </article>
+
+        <article class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-6">
+          <h3 class="font-display text-xl mb-2">Electrical Engineer BSC</h3>
+          <div class="flex justify-between items-center text-sm text-gray-400 mb-4">
+            <span>2007 - 2008</span>
+            <span>Technische Universität Berlin, Berlin, GERMANY</span>
+          </div>
+          <p class="mb-3">Unfinished.</p>
+        </article>
+
+      </section>
+
+      <!--            <section>
+                      <h2 class="font-display text-2xl mb-6">Certifications</h2>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <div class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-4">
+                              <h3 class="font-display text-lg mb-2">AWS Certified DevOps Engineer - Professional</h3>
+                              <p class="text-sm text-gray-400">Issued May 2021</p>
+                          </div>
+                          <div class="bg-[var(--color-border)] border border-[var(--color-border)] rounded-lg p-4">
+                              <h3 class="font-display text-lg mb-2">Kubernetes Administrator (CKA)</h3>
+                              <p class="text-sm text-gray-400">Issued March 2020</p>
+                          </div>
+                      </div>
+                  </section>
+              -->
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="py-8 text-center">
+  <p>&copy; 2024 leinad-sch - All rights reserved.</p>
+</footer>
+
+<!-- Mobile Navigation Menu (hidden by default) -->
+<nav id="mobile-nav-menu" class="fixed top-[60px] left-0 right-0 bg-[var(--color-bg)] border-t border-[var(--color-border)] py-6 px-4 md:hidden hidden" aria-label="Mobile navigation">
+  <ul class="flex flex-col items-center space-y-4 text-lg font-display">
+    <li><a href="index.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Home</a></li>
+    <li><a href="blog.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Blog</a></li>
+    <li><a href="projects.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">Projects</a>
+    </li>
+    <li><a href="cv.html" class="hover:text-[var(--color-accent)] transition-colors duration-200">CV</a></li>
+  </ul>
+</nav>
+
+<!-- JavaScript for Mobile Menu Toggle -->
+<script src="assets/mobile-menu.js"></script>
+
+</body>
+</html>
